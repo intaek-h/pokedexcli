@@ -30,3 +30,9 @@ func commandMap() error {
 	pokeapi.GetMaps()
 	return nil
 }
+
+func commandMapb() error {
+	fmt.Println("Getting previous maps...")
+	pokeapi.GetMapB()
+	return nil
+}
